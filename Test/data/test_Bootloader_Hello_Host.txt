@@ -1,0 +1,33 @@
+Host Hello - Bootloader Hello
+
+CAN ID:
+Request for the source address host
+Request for the source address boatloader
+Construct the CAN ID 0x18DB<TA><SA>
+
+CAN MSG:
+CMDNo: 0x01
+Payload:byte0 byte1
+Request for the actuator address value or set it to 0xFFFF (Actuator not yet addressed)
+
+Expected response: 
+Catch the Boatloader Hello packet
+if multiple boatloader packets -> Emergency, invalid image
+else -> actuator in boatloader mode
+Extract the actuator identifier and the application identifier
+
+
+
+Bootloader Hello - Host Hello 
+CAN ID:
+Request for the source address host
+Request for the source address boatloader
+Construct the CAN ID 0x18DB<TA><SA>
+
+CAN MSG:
+CMDNo: 0x01
+Payload:byte0 byte1 byte2 byte3 byte4 byte5
+Use previous actuator identifier and application identifier
+
+Expected response: 
+Catch the Host Hello packet
