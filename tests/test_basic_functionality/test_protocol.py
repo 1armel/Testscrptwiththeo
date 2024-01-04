@@ -1,0 +1,1 @@
+# Commencez par écrire des tests pour l'implémentation du protocole du bootloader. Cela pourrait inclure des tests pour vérifier que le protocole gère correctement différentes commandes, réponses, et qu'il respecte les spécifications de communication.

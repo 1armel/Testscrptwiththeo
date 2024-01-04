@@ -1,0 +1,1 @@
+#  Ici, vous pourriez implémenter des tests pour la gestion des situations d'urgence par le bootloader, telles que la récupération d'erreurs critiques ou la gestion de redémarrages inattendus.

@@ -1,0 +1,1 @@
+# Ces tests pourraient se concentrer sur la robustesse et l'efficacité de la communication dans le système de bus, en particulier comment le bootloader gère les messages CAN dans divers scénarios.

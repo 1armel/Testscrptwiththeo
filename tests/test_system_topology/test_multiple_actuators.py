@@ -1,0 +1,1 @@
+# Ce fichier peut contenir des tests pour vérifier le comportement du bootloader lorsqu'il interagit avec plusieurs actionneurs dans un système. Cela peut inclure des tests de communication et de coordination entre différents dispositifs.
