@@ -1,0 +1,10 @@
+# Répertoires de dépendances
+/venv/
+
+# Répertoires de fichiers de sauvegarde
+/.idea/
+/.vscode/
+
+# Répertoire __pycache__
+/__pycache__/
+*.pyc
